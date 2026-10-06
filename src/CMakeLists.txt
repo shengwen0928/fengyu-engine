@@ -85,6 +85,7 @@ if(BUILD_SHARED_LIBS)
   target_link_libraries(rime ${rime_deps})
   set_target_properties(rime PROPERTIES
     DEFINE_SYMBOL "RIME_EXPORTS"
+    OUTPUT_NAME "fengyucore"
     VERSION ${rime_version}
     SOVERSION ${rime_soversion}
     LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib

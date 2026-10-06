@@ -21,33 +21,33 @@ BEGIN
 #ifdef LOCALIZE_VERSION_INFO
     BLOCK "080404b0"
     BEGIN
-      VALUE "CompanyName", "式恕堂"
-      VALUE "FileDescription", "中州韵输入法引擎"
-      VALUE "InternalName", "librime"
-      VALUE "LegalCopyright", "式恕堂 版权所无"
+      VALUE "CompanyName", "AIW 風光Ai窗"
+      VALUE "FileDescription", "風語輸入法引擎"
+      VALUE "InternalName", "fengyucore"
+      VALUE "LegalCopyright", "AIW 風光Ai窗"
       VALUE "OriginalFilename", "@original_filename@"
-      VALUE "ProductName", "中州韵输入法引擎"
+      VALUE "ProductName", "風語輸入法引擎"
       VALUE "ProductVersion", "@rime_version@@tag_suffix@"
     END
     BLOCK "040904b0"
     BEGIN
-      VALUE "CompanyName", "式恕堂"
-      VALUE "FileDescription", "中州韻輸入法引擎"
-      VALUE "InternalName", "librime"
-      VALUE "LegalCopyright", "式恕堂 版權所無"
+      VALUE "CompanyName", "AIW 風光Ai窗"
+      VALUE "FileDescription", "風語輸入法引擎"
+      VALUE "InternalName", "fengyucore"
+      VALUE "LegalCopyright", "AIW 風光Ai窗"
       VALUE "OriginalFilename", "@original_filename@"
-      VALUE "ProductName", "中州韻輸入法引擎"
+      VALUE "ProductName", "風語輸入法引擎"
       VALUE "ProductVersion", "@rime_version@@tag_suffix@"
     END
 #endif
     BLOCK "040904E4"
     BEGIN
-      VALUE "CompanyName", "Rime Developers"
-      VALUE "FileDescription", "Rime Input Method Engine"
-      VALUE "InternalName", "librime"
-      VALUE "LegalCopyright", "Copyleft Rime Developers"
+      VALUE "CompanyName", "AIW Fengguang Ai Window"
+      VALUE "FileDescription", "Fengyu IME Engine"
+      VALUE "InternalName", "fengyucore"
+      VALUE "LegalCopyright", "AIW Fengguang Ai Window"
       VALUE "OriginalFilename", "@original_filename@"
-      VALUE "ProductName", "Rime Input Method Engine"
+      VALUE "ProductName", "Fengyu IME Engine"
       VALUE "ProductVersion", "@rime_version@@tag_suffix@"
     END
   END

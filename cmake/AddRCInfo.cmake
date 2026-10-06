@@ -30,7 +30,7 @@ if ("${git_branch}" STREQUAL "master")
 else()
   set(build_release ON)
 endif()
-set(original_filename "rime.dll")
+set(original_filename "fengyucore.dll")
 if(MSVC)
   set(CMAKE_RC_FLAGS "${CMAKE_RC_FLAGS} -DLOCALIZE_VERSION_INFO")
 elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU") # mingw

@@ -199,7 +199,7 @@ cmake --build %build_dir% --config %build_config% --target install
 if errorlevel 1 goto error
 
 if "%build_test%" == "ON" (
-  copy /y %rime_install_prefix%\lib\rime.dll %build_dir%\test
+  copy /y %rime_install_prefix%\lib\fengyucore.dll %build_dir%\test
   ctest --test-dir %build_dir%\test -C %build_config%  --output-on-failure
   if errorlevel 1 goto error
 )
